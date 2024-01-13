@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+body {
+    max-width: 100%;
+    width: 100%;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    background-image: url(../imgs/Rectangle_1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 1000px;
+    
+}
+.HOME_PAGE{
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 31px 40px 0 20px;
+}
+nav{
+    display: flex;
+}
+.nav_li{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.nav_li:first-child{
+    color: #FB724C;
+}
+.nav_ul{
+    
+    width: 406px;
+    /*width: 100%;*/
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.navigation{
+    
+    display: flex;
+    align-items: center;
+}
+.nav_btn{
+    color: #FFF;
+    margin-left: 40px;
+    padding: 12px 28px;
+    border-radius: 40px;
+    background: #FB724C;
+    box-shadow: 2px 4px 10px 0px rgba(251, 114, 76, 0.30);
+}
+.element{
+    margin: 31px auto 88px auto;
+    display: block;
+    background-color: #7DAFFF;
+    max-width: 1170px;
+    width: 100%;
+    height: 1px;
+}
+.heading{
+    max-width: 859px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.heading h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    max-width: 844px;
+}
+.click_bite_btn{
+    margin-top: 38px;
+    align-self: center;
+    max-width: 180px;
+    border-radius: 25px;
+    background: #FB724C;
+    box-shadow: 2px 4px 10px 0px rgba(251, 114, 76, 0.40);
+    padding: 17px 38px;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.stats_image{
+    margin-top: 100px;
+}
