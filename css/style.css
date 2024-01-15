@@ -9,22 +9,23 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    
 }
 body {
     max-width: 100%;
     width: 100%;
-
+    background-image: url(../imgs/Rectangle_1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
+
 .container{
     display: flex;
     flex-direction: column;
     margin: 0px auto;
-    background-image: url(../imgs/Rectangle_1.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 1000px;
-    
+   
 }
+
 .HOME_PAGE{
     margin: 0 auto;
 }
@@ -36,6 +37,7 @@ header{
     width: 100%;
     margin: 0 auto;
     padding: 31px 40px 0 20px;
+    
 }
 nav{
     display: flex;
@@ -110,6 +112,12 @@ nav{
     font-weight: 700;
     line-height: normal;
 }
-.stats_image{
-    margin-top: 100px;
+.stats_image_laptop{
+    margin: 100px auto;
+    width: 800px;
+    height: 441.092px;
+}
+.stats_image_cub{
+    margin: 0px 60px 0px;
+    width: 450px;
 }
