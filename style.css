@@ -21,7 +21,7 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     height: 1000px;
-    
+
 }
 .HOME_PAGE{
     margin: 0 auto;
@@ -45,7 +45,6 @@ nav{
     font-weight: 700;
 }
 .nav_ul{
-    
     width: 406px;
     /*width: 100%;*/
     display: flex;
