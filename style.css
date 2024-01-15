@@ -121,5 +121,7 @@ nav{
     display: flex !important;
     justify-content: space-between;
     margin: 100px auto;
+    height: 50px;
+    max-width: 1920px;
     
 }
